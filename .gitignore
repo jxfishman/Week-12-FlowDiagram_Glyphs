@@ -1,2 +1,5 @@
 
 .DS_Store
+.idea/modules.xml
+*.xml
+.idea/Week-14-FlowDiagram_Glyphs.iml
