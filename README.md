@@ -11,3 +11,5 @@ The direction, scale, color and length of the glyph is set
 by a function. Using this function, we can append a 
 glyph object to all or some of the cells of the data
 </p>
+
+<img src='./bin/fig01.png'/>
