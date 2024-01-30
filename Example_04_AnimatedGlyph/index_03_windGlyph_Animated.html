@@ -13,6 +13,8 @@
         const glyph_shape = d3.symbol()
             .type(d3.symbolTriangle)
             .size(dimension);
+
+
        const glyph = container.append("g")
            .attr("transform", `rotate(${rotation*360},0,0)`)
            .selectAll('.Gl')
@@ -30,7 +32,7 @@
                    .transition()
                    .delay(d=>d*10)
                    .attr("fill",color)
-                   .attr("fill-opacity",0.3)
+                   .attr("fill-opacity",0.0)
                    .transition()
                    .attr("fill",color)
                    .attr("fill-opacity",0.8)
